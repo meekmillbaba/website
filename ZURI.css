@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "poppins", sans-serif;
+  background-color: gold;
+}
+.header{
+  min-height: 100vh;
+  width: 100%;
+  background-image: linear-
+  gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/nnn.png);
+  background-position: center;
+  background-size: cover:
+  position: relative;
+}
+.text-box {
+  width: 90%;
+  color: black;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.text-box h1 {
+  font-size: 32px;
+  padding: 50px;
+}
+.text-box h2 {
+  font-size: 40px;
+  padding: 30px;
+}
+.hero-btn {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  border: 1px solid #fff;
+  padding: 12px 34px;
+  font-size: 17px;
+  background: transparent;
+  background-color: orangered;
+  position: relative;
+  cursor: pointer;
+}
+.hero-bt {
+  display: inline-block;
+  text-decoration: none;
+  color: orangered;
+  border: 1px solid orangered;
+  padding: 12px 34px;
+  font-size: 17px;
+  background: transparent;
+  background-color: white;
+  position: relative;
+  cursor: pointer;
+}
+@media (max-width: 700px) {
+  .text-box h1 {
+    font-size: 15px;
+  }
+  .text-box h2;
+}
+/*------ course ------*/
+.course {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-top: 100px;
+}
+h1 {
+  font-size: 30px;
+  font-weight: 600;
+}
+p {
+  color: black;
+  font-size: 14px;
+  font-weight: 300;
+  line-weight: 22px;
+  padding: 20px;
+}
+
+.row{
+  justify-content: space-between;
+  display: flex;
+  margin-top: 10%;
+}
+.course-col{
+  flex-basis: 31%;
+  background: white;
+  border-radius: 10px;
+  margin-bottom: 5%;
+  padding: 20px 12px;
+  box-sizing: border-box;
+  transition:0.5s;
+}
+h4{
+  text-align: center;
+  font-weight: 600;
+  margin: 10px 0;
+}
+.course-col:hover{
+  box shadow: 0 0 20px 0px rgba(0,0,0,0,2);
+}
+
+@media(max-width: 700px){
+  flex-direction: column;
+}
+
+
